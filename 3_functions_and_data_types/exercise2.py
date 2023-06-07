@@ -13,6 +13,16 @@ def get_str() -> str:
     return s
 
 def reverse_string(s: str, i = 0, s_list = []) -> str:
+  """reverses a tring recursively
+
+  Args:
+      s (str): string to reverse
+      i (int, optional): counter for recursivity. Defaults to 0.
+      s_list (list, optional): accumulator for recursivity. Defaults to [].
+
+  Returns:
+      str: _description_
+  """
   step = len(s) - i
 
   if step > 0:

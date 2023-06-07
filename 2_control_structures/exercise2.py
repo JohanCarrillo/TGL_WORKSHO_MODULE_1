@@ -14,8 +14,6 @@ def check_prime(n: int) -> bool:
     return True
   else:
     for i in range(3, n, 2):
-      # print(i)
-      print(n%i)
       if n % i == 0:
         return False
     return True

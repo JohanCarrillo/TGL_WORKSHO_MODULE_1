@@ -41,6 +41,7 @@ def read_file(file_name: str) -> str:
 
 def main():
   file_name = input("Enter file name or path: ")
+  # file_name = "zen_of_python.txt"
   file_text = read_file(file_name)
 
   if file_text == "":

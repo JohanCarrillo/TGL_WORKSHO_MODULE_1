@@ -1,4 +1,15 @@
 def find_maximum(numbers_list: list) -> float:
+  """find the greatest number in the given list
+
+  Args:
+      numbers_list (list): list to search
+
+  Raises:
+      ValueError: if the list is empty
+
+  Returns:
+      float: greatest number in the list
+  """
   if len(numbers_list) > 0:
     max_num = numbers_list[0]
     for n in numbers_list:
